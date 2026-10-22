@@ -41,7 +41,7 @@
     params.set('metrics',METRICS.filter(([key])=>chosenMetrics.has(key)).map(([key])=>key).join(','));
     params.set('horizon',byId('trend-horizon').value);params.set('status',byId('status-horizon').value);
     history.replaceState(null,'',url);
-    if(!byId('share-box').hidden)byId('share-link').value=url.href;
+    if(!byId('share-box').hidden){byId('share-link').value=url.href;byId('share-status').textContent='Linket følger dine aktuelle valg. Tryk Del sammenligning for at kopiere igen.';}
   }
   function renderMetrics(){
     const box=byId('metrics');box.replaceChildren();
@@ -227,7 +227,7 @@
   byId('share').addEventListener('click',async()=>{
     if(!data)return;
     updateLink();const box=byId('share-box'),input=byId('share-link');box.hidden=false;input.value=location.href;
-    try{await navigator.clipboard.writeText(input.value);byId('share-status').textContent='Link kopieret';}
+    try{await navigator.clipboard.writeText(input.value);byId('share-status').textContent='Link kopieret. Sæt det ind i en mail eller besked. Modtageren ser dine valgte filtre.';}
     catch{input.focus();input.select();byId('share-status').textContent='Markér og kopiér linket';}
   });
   Promise.all([

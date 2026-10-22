@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#2B211B">
   <title>Resultatmålinger for a-kasser | Fra nyledighed til job og uddannelse</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js" defer></script>
-  <script src="app.js?v=20261022-standalone" defer></script>
+  <script src="app.js?v=20261022-share" defer></script>
   <link rel="stylesheet" href="style.css?v=20261022-1">
   <link rel="stylesheet" href="efteraar.css">
 </head>
@@ -21,9 +21,10 @@
   <main class="wrap">
     <section class="panel controls" aria-labelledby="select-title">
       <div class="section-heading"><div><span class="section-no">VÆLG SAMMENLIGNING</span><h2 id="select-title">Vælg a-kasser</h2></div><p>Vælg én, to eller flere. I alt er valgt fra start.</p></div>
-      <div class="toolbar"><button type="button" id="all">Vælg alle</button><button type="button" id="reset">Kun I alt</button><label for="span">Vis periode</label><select id="span"><option value="12">Seneste 12 måneder</option><option value="24">Seneste 24 måneder</option><option value="0">Alle måneder</option></select><button id="csv" type="button">Hent valgte tal som CSV</button><button id="share" type="button">Del denne visning</button></div>
-      <div id="share-box" class="share-box" hidden><label for="share-link">Link til valgte filtre</label><input id="share-link" type="text" readonly><span id="share-status" role="status"></span></div>
+      <div class="toolbar"><button type="button" id="all">Vælg alle</button><button type="button" id="reset">Kun I alt</button><label for="span">Vis periode</label><select id="span"><option value="12">Seneste 12 måneder</option><option value="24">Seneste 24 måneder</option><option value="0">Alle måneder</option></select><button id="csv" type="button">Hent valgte tal som CSV</button></div>
       <div id="funds" class="funds" role="group" aria-label="A-kasser"></div>
+      <div class="toolbar" style="margin-top:20px;margin-bottom:8px"><button id="share" type="button" style="font-weight:700;background:#4A3428;color:#fff" aria-controls="share-box">Del sammenligning</button><span class="small" style="margin:0">Kopiér et link til hele siden med dine valgte a-kasser, måneder og øvrige filtre.</span></div>
+      <div id="share-box" class="share-box" hidden><label for="share-link">Link til din sammenligning</label><input id="share-link" type="text" readonly aria-label="Link til din sammenligning"><span id="share-status" role="status"></span></div>
       <p class="small">Forkortelser af navne kan være anvendt. Alle serier viser andele i procent af de nyledige i den valgte a-kasse, ikke antal medlemmer.</p>
     </section>
     <div id="message" class="message" role="alert" hidden></div>
