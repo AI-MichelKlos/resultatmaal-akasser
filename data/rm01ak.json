@@ -8,12 +8,12 @@
       "three": "2026M05",
       "six": "2026M02"
     },
-    "fetchedAt": "2026-10-24T12:04:17+00:00",
+    "fetchedAt": "2026-10-25T12:38:34+00:00",
     "unit": "pct. af nyledige",
     "geography": "Hele landet",
     "filters": "Separate opdelinger efter region, køn, alder og herkomst; a-kasse ved nyledighed",
     "note": "Officiel totalrække og officielle a-kasserækker. Prikker/diskretionerede værdier er null. Ujusterede andele.",
-    "mirrorSourceCommit": "6b2d6748fab69e4868adb73be16b886c8990398f"
+    "mirrorSourceCommit": "a534b69ed689cebf3de2ca2285904d3b04a0ffb8"
   },
   "funds": {
     "TOTAL": {
