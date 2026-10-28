@@ -1,8 +1,8 @@
 {
   "state": "ok",
-  "dateDK": "2026-10-27",
-  "checkedAt": "2026-10-27T13:21:59+00:00",
+  "dateDK": "2026-10-28",
+  "checkedAt": "2026-10-28T14:07:22+00:00",
   "source": "Jobindsats.dk",
   "dataset": "rm01ak",
-  "mirrorSourceCommit": "4c1b1d3251c0c8b691b44ef568f9eef691eb56ab"
+  "mirrorSourceCommit": "b668eb0c685b81939aea73f1852fe4a1fa407c09"
 }
