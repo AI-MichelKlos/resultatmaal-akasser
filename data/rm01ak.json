@@ -13,7 +13,7 @@
     "geography": "Hele landet",
     "filters": "Separate opdelinger efter region, køn, alder og herkomst; a-kasse ved nyledighed",
     "note": "Officiel totalrække og officielle a-kasserækker. Prikker/diskretionerede værdier er null. Ujusterede andele.",
-    "mirrorSourceCommit": "b668eb0c685b81939aea73f1852fe4a1fa407c09"
+    "mirrorSourceCommit": "b37c678a668285b17550a08df5dcf113e493f265"
   },
   "funds": {
     "TOTAL": {
