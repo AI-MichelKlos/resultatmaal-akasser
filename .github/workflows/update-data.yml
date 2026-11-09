@@ -10,7 +10,7 @@ permissions:
   pages: write
   id-token: write
 concurrency:
-  group: resultatmaal-publish
+  group: pages
   cancel-in-progress: false
 jobs:
   update:
