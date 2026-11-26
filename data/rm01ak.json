@@ -21,7 +21,7 @@
     },
     "filters": "Separate opdelinger efter region, køn, alder og herkomst; a-kasse ved nyledighed",
     "note": "Officiel totalrække og officielle a-kasserækker. Prikker/diskretionerede værdier er null. Ujusterede andele.",
-    "mirrorSourceCommit": "61172624d96c21992c1bf51ceb1803a7912d4d78"
+    "mirrorSourceCommit": "038d3ae8703ec67ab1388913c5083f30a1e1efbb"
   },
   "funds": {
     "TOTAL": {
